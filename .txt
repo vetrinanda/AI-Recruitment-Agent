@@ -1,0 +1,33 @@
+Here are 7 git commit messages summarizing the recent updates, organized by feature/scope:
+
+feat(backend): implement dynamic random job role generation
+Refactored 
+jobrole.py
+ to support fully automated, random role generation using Gemini 2.5 Flash.
+Removed interactive input dependencies for smoother API integration.
+
+feat(api): expose generation endpoints and enable CORS
+Updated 
+main.py
+ to include /generate-job-role endpoint.
+Added CORSMiddleware to allow seamless communication between the React frontend and FastAPI backend.
+
+feat(frontend): initialize web app with Shadcn UI and Vite
+Scaffolded new React project using Vite and Tailwind CSS.
+Configured Shadcn UI components (Card, Badge, Button, Input) for the core interface.
+
+feat(ui): implement skeleton loading states
+Added Skeleton component to display shimmering placeholders while generating new job roles.
+Improved user experience by providing visual feedback during asynchronous AI operations.
+
+refactor(frontend): integrate public sans font and responsive layout
+Configured Public Sans as the primary typeface.
+Optimized grid layouts to ensure full responsiveness across mobile and desktop devices.
+
+design(frontend): overhaul UI with professional dark mode
+Redesigned the entire application with a premium "Slate & Indigo" dark theme.
+Added glassmorphism effects, gradient text, and Lucide icons for a high-end aesthetic.
+
+docs: update README to V2.0 specifications
+Rewrote project documentation to reflect the new full-stack architecture.
+Added comprehensive setup instructions for both Backend and new React Frontend.
